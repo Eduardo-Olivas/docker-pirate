@@ -1,0 +1,59 @@
+------------------------
+cd express mysql
+cd app
+npm install
+npm run test
+
+-----------------------
+cd express mysql
+
+docker-compose up --build
+-----------------------
+new terminal
+
+docker exec -it my_express_rest_api bash
+exit 
+
+docker exec -it -u root my_mysql_db bash
+
+mysql -u root -p
+root 
+
+localhost:3000
+localhost:3000/developers
+
+cd C:\PRACTICA\docker-pirate\jenkins\example3_sonarqube
+docker compose up
+
+http://localhost:8080/
+jenkins
+
+en el log viene la contraseña d1aa3711160644cfb87759836dfa70ec
+
+docker exec -it my_custom_jenkins bash
+cat /var/jenkins_home/secrets/initialAdminPassword
+
+eolivash
+1234
+
+instalar plugins
+1.sonarqube scanner
+2.quality gate
+3.nodejs
+
+configure
+http://myjenkins:8080/
+
+sonarqube
+
+
+http://localhost:9000/admin/settings
+Server base URL
+http://mysonarqube:9000
+
+
+webhook-sonar
+http://myjenkins:8080/sonarqube-webhook
+
+docker exec -it my_custom_jenkins bash
+copy paste
