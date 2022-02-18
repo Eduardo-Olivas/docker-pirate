@@ -57,3 +57,6 @@ http://myjenkins:8080/sonarqube-webhook
 
 docker exec -it my_custom_jenkins bash
 copy paste
+
+
+http://localhost:8080/job/pipeline_sans/
